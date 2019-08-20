@@ -1,0 +1,50 @@
+.faux-select 
+  list-style-type: none
+  background: #fff
+  color: #303030
+  text-align: left
+  font-size: 20px
+  font-weight: 400
+  height: 52px
+  cursor: pointer
+  width: 217px
+  display: inline-block
+  position: relative
+  li
+    margin: 0
+    padding: 0
+    text-indent: 1em
+    position: relative
+    .options
+      margin: 0
+      padding: 0
+      display: block
+      box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.15)
+      list-style-type: none
+      background: transparent
+      position: absolute
+      width: 216px
+      max-height: 0px
+      overflow: hidden
+      top: 75px
+      left: 0px
+      transition: all ease 0.25s
+      li
+        margin: 0
+        padding: 0
+        height: 66px
+        text-align: center
+        vertical-align: middle
+        border-bottom: 1px solid #dadada
+        line-height: 75px
+    .open
+      margin: 0
+      padding: 0
+      background: #fff
+      max-height: 1000%
+      border-bottom: 1px solid #dadada
+      li
+        &:hover
+          background-color: #e16f6c
+          a
+            color: #fff

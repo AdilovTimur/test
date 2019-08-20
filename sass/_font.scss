@@ -1,0 +1,57 @@
+//шрифт сайта
+@font-face {
+font-family: 'Rounded Elegance Regular';
+src: url('../fonts/RoundedElegance-Regular.eot');
+src: url('../fonts/RoundedElegance-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/RoundedElegance-Regular.woff') format('woff'),
+url('../fonts/RoundedElegance-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+  // end шрифт сайта
+
+//шрифт шапки и футера
+@font-face {
+font-family: 'COCOMAT Light';
+src: url('../fonts/COCOMAT-Light.eot');
+src: url('../fonts/COCOMAT-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/COCOMAT-Light.woff') format('woff'),
+url('../fonts/COCOMAT-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+@font-face {
+font-family: 'COCOMAT Regular';
+src: url('../fonts/COCOMAT.eot');
+src: url('../fonts/COCOMAT.eot?#iefix') format('embedded-opentype'),
+url('../fonts/COCOMAT.woff') format('woff'),
+url('../fonts/COCOMAT.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+//end шрифт шапки и футера
+
+  //цвет шрифта сайта
+@mixin textcolor {
+  color: #303030;
+}
+  //цвет шрифта заголовков под заголовков
+@mixin titlecolor {
+  color: #e16f6c;
+}
+
+//шрифт сайта
+@mixin regularf {
+  font-family: 'Rounded Elegance Regular', sans-serif;
+}
+
+//шрифт шапки и футера
+@mixin regular {
+  font-family: 'COCOMAT Regular', sans-serif;
+}
+
+@mixin light {
+  font-family: 'COCOMAT Light', sans-serif;
+}

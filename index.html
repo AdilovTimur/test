@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+  <title>Just</title>
+</head>
+<body>
+<!-- 1 секция шапка и навагация -->
+  <header class="header">
+    <nav class="main_menu">
+      <ul class="faux-select">
+        <div class="main_menu-left">
+            <li class="selected-option"><a href="#">Караганда</a>
+              <ul class="options">
+                <li data-value="Караганда"><a href="#">Караганда</a></li>
+                <li data-value="Астана"><a href="#">Астана</a></li>
+                <li data-value="Алматы"><a href="#">Алматы</a></li>
+                <li data-value="Тараз"><a href="#">Тараз</a></li>
+              </ul>
+            </li>
+            <li class="contact"><a href="#">Контакты</a></li>
+            <li class="helpdesk"><a href="#">Помощь</a></li>
+        </div>
+        <!-- /.main_menu-left -->
+        <div class="main_menu-center">
+            <input type="text" placeholder='Услуги и салоны'>
+        </div>
+        <!-- /.main_menu-center -->
+        <div class="main_menu-right">
+            <li><a href="#">Регистрация</a></li>
+            <li><a href="#">Вход</a></li>
+        </div>
+        <!-- /.main_menu-right -->
+      </ul>
+    </nav>
+    <!-- /.main_menu -->
+    <div class="hero">
+      <div class="hero_description">
+          <h1>switz</h1>
+          <p>Сервис записи</p>
+          <h3>switz Online – это простой и удобный способ онлайн-записи<br>в компании и к частным специалистам сферы услуг.</h3>
+        </div>
+        <!-- /.description -->
+    </div>
+    <!-- /.hero -->
+  </header>
+  <!-- /.header -->
+
+  <!-- 2 секция  -->
+<section class="service">
+  <div class="container">
+      <div class="service_title"><h2>Услуги</h2></div>
+      <div class="service_content">
+          <div class="service_item">
+              <p>Парикмахерские услуги</p>
+              <ul>
+                <li>
+                  <a href="#">Женская стрижка</a>
+                  <a href="#">Мужская стрижка</a>
+                  <a href="#">Окрашивание в один тон</a>
+                  <a href="#">Осветление (полностью)</a>
+                  <a href="#">Тонирование волос</a>
+                </li>
+              </ul>
+          </div>
+        <!-- /.service_item -->
+        <div class="service_item">
+          <p>Эстетика лица</p>
+          <ul>
+            <li>
+              <a href="#">Коррекция наращенных ресниц</a>
+              <a href="#">Коррекция бровей</a>
+              <a href="#">Наращивание ресниц</a>
+              <a href="#">Снятие наращенных ресниц</a>
+              <a href="#">3D объём</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.service_item -->
+        <div class="service_item">
+          <p>Уход за ногтями</p>
+          <ul>
+            <li>
+              <a href="#">Аппаратный маникюр</a>
+              <a href="#">Восстановление ногтей акрилом</a>
+              <a href="#">Коррекция ногтей</a>
+              <a href="#">Снятие покрытия</a>
+              <a href="#">Французский маникюр (френч)</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.service_item -->
+        <div class="service_item">
+          <p>Депиляция</p>
+          <ul>
+            <li>
+              <a href="#">Руки до локтя</a>
+              <a href="#">Руки полностью</a>
+              <a href="#">Ноги голень</a>
+              <a href="#">Ноги полностью</a>
+              <a href="#">Подмышечная область</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.service_item -->
+        </div>
+      </div>
+      
+    
+</section>
+<!-- /.service -->
+
+<!-- 3 мекция -->
+<section class="share">
+  <div class="container">
+    <div class="share_title">
+      <h2>Акции</h2>
+    </div>
+<!-- /.share_title -->
+<div class="share_slider">
+    <div class="share_sliderbar-button arrl" onclick='shareright()'></div>
+    <!-- /.share_sliderbar-button -->
+    <div class="share_sliderbar-button arrr" onclick='shareleft()'></div>
+    <!-- /.share_sliderbar-button -->
+  <div class="share_sliderbar" id='share_sliderbar'>
+    <img src="img/orig.png" alt="" class="share_sliderimg">
+    <img src="img/orig.png" alt="" class="share_sliderimg">
+    <img src="img/permanentni-makijaj-1.png" alt="" class="share_sliderimg">
+    <img src="img/f_6968_163486_1.png" alt="" class="share_sliderimg">
+    <img src="img/orig.png" alt="" class="share_sliderimg">
+    <img src="img/orig.png" alt="" class="share_sliderimg">
+    <img src="img/permanentni-makijaj-1.png" alt="" class="share_sliderimg">
+    <img src="img/f_6968_163486_1.png" alt="" class="share_sliderimg">
+  </div>
+  <!-- /.share_sliderbar -->
+
+</div>
+<!-- /.share_slider -->
+
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /.share -->
+
+<!-- 4 секция -->
+<section class="popsaloon">
+  <div class="container">
+    <div class="popsaloon_title">
+        <h2>Популярные салоны</h2>
+    </div>
+      <!-- /.popsaloon_title -->
+      <div class="popsaloon_slider">
+
+        <div class="popsaloon_slider-item">
+            <img src="img/saloon1.png" alt="">
+            <button class="popsaloon_button">Запись</button>
+        </div>
+        <div class="popsaloon_slider-item">
+            <img src="img/saloon2.png" alt="">
+            <button class="popsaloon_button">Запись</button>
+        </div>
+        <div class="popsaloon_slider-item">
+            <img src="img/saloon3.png" alt="">
+            <button class="popsaloon_button">Запись</button>
+        </div>
+        <div class="popsaloon_slider-item">
+            <img src="img/saloon4.png" alt="">
+            <button class="popsaloon_button">Запись</button>
+        </div>
+
+      </div>
+      <!-- /.popsaloon_slider -->
+
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /.popsaloon -->
+
+
+<!-- 5 секция -->
+<section class="barber">
+    <div class="container">
+      <div class="barber_title">
+        <h2>Индивидуальные мастера</h2>
+      </div>
+  <!-- /.barber_title -->
+    <div class="barber_slider">
+      <div class="barber_sliderbar-button arrl" onclick='barberright()'></div>
+      <!-- /.barber_sliderbar-button -->
+      <div class="barber_sliderbar-button arrr" onclick='barberleft()'></div>
+<!-- /.barber_sliderbar-button -->
+<div class="barber_sliderbar" id="barber_sliderbar">
+      <div class="barber_slider-item">
+          <img src="img/barber1.png" alt="">
+          <button class="barber_button">Запись</button>
+      </div>
+      <div class="barber_slider-item">
+          <img src="img/barber2.png" alt="">
+          <button class="barber_button">Запись</button>
+      </div>
+      <div class="barber_slider-item">
+          <img src="img/barber3.png" alt="">
+          <button class="barber_button">Запись</button>
+      </div>
+      <div class="barber_slider-item">
+          <img src="img/barber4.png" alt="">
+          <button class="barber_button">Запись</button>
+      </div>
+      <div class="barber_slider-item">
+          <img src="img/barber1.png" alt="">
+          <button class="barber_button">Запись</button>
+      </div>
+      <div class="barber_slider-item">
+          <img src="img/barber2.png" alt="">
+          <button class="barber_button">Запись</button>
+      </div>
+      <div class="barber_slider-item">
+          <img src="img/barber3.png" alt="">
+          <button class="barber_button">Запись</button>
+      </div>
+      <div class="barber_slider-item">
+          <img src="img/barber4.png" alt="">
+          <button class="barber_button">Запись</button>
+      </div>
+      </div>
+      
+      
+      
+    <!-- /.share_sliderbar -->
+  
+    </div>
+  <!-- /.share_slider -->
+  
+    </div>
+    <!-- /.container -->
+  </section>
+
+<footer>
+    <div class="footer_info">
+        <ul>
+            <li>
+              <a href="#">О нас</a>
+              <a href="#">Контакты</a>
+              <a href="#">Партнерам</a>
+              <a href="#">Бесплатное приложение:<img src="img/apple_(1).png" alt=""><img src="img/android-logo.png" alt=""></a>
+            </li>
+          </ul>
+    </div>
+  <div class="footer_about">
+    <p><img src="img/mapnote.png" alt="">Караганда, ул. Новоселов 190</p>
+    <h5>switz</h5>
+    <p>© Gexabyte 2018-2019<br>
+        Все права защищены</p>
+  </div>
+
+</footer>
+</body>
+</html>
