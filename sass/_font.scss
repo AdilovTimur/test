@@ -9,7 +9,6 @@ font-weight: normal;
 font-style: normal;
 }
   // end шрифт сайта
-
 //шрифт шапки и футера
 @font-face {
 font-family: 'COCOMAT Light';
@@ -20,8 +19,6 @@ url('../fonts/COCOMAT-Light.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
-
-
 @font-face {
 font-family: 'COCOMAT Regular';
 src: url('../fonts/COCOMAT.eot');
@@ -32,7 +29,6 @@ font-weight: normal;
 font-style: normal;
 }
 //end шрифт шапки и футера
-
   //цвет шрифта сайта
 @mixin textcolor {
   color: #303030;
@@ -41,17 +37,14 @@ font-style: normal;
 @mixin titlecolor {
   color: #e16f6c;
 }
-
 //шрифт сайта
 @mixin regularf {
   font-family: 'Rounded Elegance Regular', sans-serif;
 }
-
 //шрифт шапки и футера
 @mixin regular {
   font-family: 'COCOMAT Regular', sans-serif;
 }
-
 @mixin light {
   font-family: 'COCOMAT Light', sans-serif;
 }
