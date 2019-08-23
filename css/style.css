@@ -218,11 +218,11 @@ header {
 }
 
 .main_menu-left .contact {
-  margin-left: 15px;
+  margin-left: 43px;
 }
 
 .main_menu-left .helpdesk {
-  margin-left: 55px;
+  margin-left: 79px;
 }
 
 .main_menu-right {
@@ -230,15 +230,16 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 280px;
+  margin-left: 300px;
 }
 
-.main_menu-right li:first-child {
-  margin-left: 0px;
-}
-
-.main_menu-right li {
+.main_menu-right li:first-of-type {
   padding: 27px 30px;
+  border-left: 1px solid #dadada;
+}
+
+.main_menu-right li:last-of-type {
+  padding: 27px 41px;
   border-left: 1px solid #dadada;
 }
 
